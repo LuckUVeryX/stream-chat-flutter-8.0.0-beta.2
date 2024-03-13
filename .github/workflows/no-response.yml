@@ -5,9 +5,6 @@ name: No Response
 on:
   issue_comment:
     types: [created]
-  schedule:
-    # Schedule for five minutes after the hour, every hour
-    - cron: '5 * * * *'
 
 jobs:
   noResponse:
@@ -24,4 +21,3 @@ jobs:
             any more information for us; we will reopen it right away!
             Thanks for your contribution.
           responseRequiredLabel: "waiting for customer response"
-          
