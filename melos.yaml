@@ -1,6 +1,8 @@
 name: stream_chat_flutter
 repository: https://github.com/GetStream/stream-chat-flutter
 
+sdkPath: .fvm/flutter_sdk
+
 packages:
   - packages/**
 
